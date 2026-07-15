@@ -9,7 +9,7 @@ Wisdom installs expert workflows into Claude Code, Codex, and compatible AI codi
 From your project root, run:
 
 ```bash
-npx wisdom install
+npx wisdom-skills install
 ```
 
 Wisdom will ask which AI coding tool to target and install the skill into the current project.
@@ -25,35 +25,35 @@ That is all.
 Claude Code, current project:
 
 ```bash
-npx wisdom install --agent claude --scope project --yes
+npx wisdom-skills install --agent claude --scope project --yes
 ```
 
 Codex, current project:
 
 ```bash
-npx wisdom install --agent codex --scope project --yes
+npx wisdom-skills install --agent codex --scope project --yes
 ```
 
 All supported tools:
 
 ```bash
-npx wisdom install --agent all --scope project --yes
+npx wisdom-skills install --agent all --scope project --yes
 ```
 
 Global installation for every project:
 
 ```bash
-npx wisdom install --agent claude --scope user --yes
+npx wisdom-skills install --agent claude --scope user --yes
 ```
 
 ## Commands
 
 ```bash
-npx wisdom install
-npx wisdom update
-npx wisdom uninstall
-npx wisdom doctor
-npx wisdom list
+npx wisdom-skills install
+npx wisdom-skills update
+npx wisdom-skills uninstall
+npx wisdom-skills doctor
+npx wisdom-skills list
 ```
 
 ## What gets installed

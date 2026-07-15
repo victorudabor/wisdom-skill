@@ -1,11 +1,11 @@
 {
-  "name": "wisdom",
+  "name": "wisdom-skills",
   "version": "0.4.0",
   "description": "Install portable AI coding skills into Claude Code, Codex, and compatible coding agents.",
   "license": "MIT",
   "type": "module",
   "bin": {
-    "wisdom": "./bin/wisdom.mjs"
+    "wisdom-skills": "./bin/wisdom.mjs"
   },
   "files": [
     "bin",

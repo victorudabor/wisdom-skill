@@ -5,7 +5,7 @@
 Run this from the root of the project where you want the skill:
 
 ```bash
-npx wisdom install
+npx wisdom-skills install
 ```
 
 Choose an AI tool and installation scope. Project scope is recommended because it keeps the skill versioned with the codebase and visible to collaborators.
@@ -25,19 +25,19 @@ Choose an AI tool and installation scope. Project scope is recommended because i
 ## Updating
 
 ```bash
-npx wisdom update --agent claude --scope project --yes
+npx wisdom-skills update --agent claude --scope project --yes
 ```
 
 ## Removing
 
 ```bash
-npx wisdom uninstall --agent claude --scope project --yes
+npx wisdom-skills uninstall --agent claude --scope project --yes
 ```
 
 ## Diagnosing
 
 ```bash
-npx wisdom doctor
+npx wisdom-skills doctor
 ```
 
 This reports detected agent folders, available skill versions, and existing installations.

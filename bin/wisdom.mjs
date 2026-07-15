@@ -35,8 +35,8 @@ function banner() {
 
 function printHelp() {
   console.log(`Usage:
-  npx wisdom install
-  npx wisdom <command> [options]
+  npx wisdom-skills install
+  npx wisdom-skills <command> [options]
 
 Commands:
   install      Install a skill into an AI coding tool
@@ -56,7 +56,7 @@ Options:
   --json                       Machine-readable output
 
 Quick start:
-  From your project root, run npx wisdom install
+  From your project root, run npx wisdom-skills install
 `);
 }
 
