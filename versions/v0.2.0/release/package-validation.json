@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "root": "/mnt/data/exact-ui-replica-v0.2.0",
+  "name": "exact-ui-replica",
+  "version": "0.2.0",
+  "skill_lines": 378,
+  "referenced_paths_checked": 20,
+  "eval_count": 8,
+  "scripts": [
+    "README.md",
+    "audit_project.py",
+    "capture_page.mjs",
+    "inspect_image.py",
+    "install_skill.py",
+    "package.json",
+    "requirements.txt",
+    "run_verification.py",
+    "validate_skill.py",
+    "visual_diff.py"
+  ],
+  "errors": [],
+  "warnings": []
+}

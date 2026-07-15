@@ -1,0 +1,9 @@
+interface:
+  display_name: "Exact UI Replica"
+  short_description: "Turn screenshots into exact build prompts or verified frontend code"
+  icon_small: "../assets/skill-icon.svg"
+  icon_large: "../assets/skill-icon.svg"
+  brand_color: "#111111"
+  default_prompt: "Analyze the supplied UI reference with Exact UI Replica. Generate an implementation contract and either produce the master coding prompt or build and visually verify the interface, depending on my request."
+policy:
+  allow_implicit_invocation: true

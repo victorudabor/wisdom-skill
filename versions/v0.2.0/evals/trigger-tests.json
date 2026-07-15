@@ -1,0 +1,27 @@
+{
+  "skill_name": "exact-ui-replica",
+  "should_trigger": [
+    "Turn this screenshot into a detailed Codex prompt that recreates it exactly.",
+    "Build this MVP image as a responsive React page without changing the design.",
+    "Compare my current page with the attached mockup and fix the differences.",
+    "Extract the colors, typography, spacing and component system from this UI reference.",
+    "Create a pixel-accurate HTML and CSS version of this mobile screen.",
+    "Write a master Cursor prompt to clone this landing page.",
+    "Use the desktop and mobile images to reconstruct the responsive states.",
+    "The dashboard is close to the Figma export; align it exactly.",
+    "Reverse-engineer this website screenshot into an implementation contract.",
+    "Build only Concept 4 from this UI moodboard."
+  ],
+  "should_not_trigger": [
+    "Design a completely new social network with no reference image.",
+    "Explain how CSS Grid works.",
+    "Review this backend API for SQL injection.",
+    "Generate a logo for my fashion brand.",
+    "Brainstorm five color palettes for a new dashboard.",
+    "Summarize this product requirements document.",
+    "Fix the login bug in this PHP controller.",
+    "Create database tables for a booking platform.",
+    "Make this paragraph sound more professional.",
+    "Deploy my existing Laravel app to cPanel."
+  ]
+}

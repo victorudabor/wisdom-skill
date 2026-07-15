@@ -1,0 +1,83 @@
+{
+  "$schema": "https://agentskills.io/schema/skill-package-extension-v1.json",
+  "schemaVersion": "1.0",
+  "name": "exact-ui-replica",
+  "displayName": "Exact UI Replica",
+  "version": "0.2.0",
+  "description": "Analyze UI references to generate an implementation-ready coding prompt, build a high-fidelity frontend, or repair an existing implementation with measured visual verification.",
+  "author": "Maverp",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "modes": [
+    "prompt-generation",
+    "direct-build",
+    "visual-repair",
+    "hybrid"
+  ],
+  "capabilities": [
+    "image-inspection",
+    "visual-forensics",
+    "design-token-extraction",
+    "master-prompt-generation",
+    "repository-audit",
+    "frontend-implementation",
+    "responsive-reconstruction",
+    "browser-screenshot",
+    "visual-diff",
+    "ui-quality-assurance"
+  ],
+  "permissions": {
+    "filesystem": [
+      "read-reference-files",
+      "read-project-files",
+      "write-project-files-in-build-or-repair-mode",
+      "write-artifacts-and-reports"
+    ],
+    "process": [
+      "run-project-commands-with-user-policy",
+      "run-local-browser",
+      "run-bundled-verification-scripts"
+    ],
+    "network": "optional-for-approved-package-installation-and-authorized-assets",
+    "secrets": "deny-by-default",
+    "destructiveActions": "require-client-approval"
+  },
+  "runtime": {
+    "required": [],
+    "optional": [
+      "node>=20",
+      "python>=3.10",
+      "playwright",
+      "pillow",
+      "numpy"
+    ]
+  },
+  "supportedClients": [
+    {
+      "name": "Agent Skills compatible",
+      "support": "standard"
+    },
+    {
+      "name": "OpenAI Codex",
+      "support": "adapter-and-openai-metadata"
+    },
+    {
+      "name": "Claude Code",
+      "support": "adapter"
+    }
+  ],
+  "tags": [
+    "screenshot-to-prompt",
+    "screenshot-to-code",
+    "frontend",
+    "ui-replica",
+    "pixel-accurate",
+    "responsive-design",
+    "visual-regression"
+  ],
+  "verification": {
+    "packageValidator": "python3 scripts/validate_skill.py .",
+    "evalFile": "evals/evals.json",
+    "triggerTests": "evals/trigger-tests.json"
+  }
+}

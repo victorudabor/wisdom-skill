@@ -1,0 +1,62 @@
+{
+  "skill_name": "exact-ui-replica",
+  "skill_version": "0.2.0",
+  "evals": [
+    {
+      "id": 1,
+      "mode": "prompt",
+      "prompt": "Analyse the attached cinematic fashion MVP and write the complete engineered prompt I can paste into Codex to build an exact replica. Include design specifications, exact patterns, colors, typography, icons, widths, libraries, interactions, responsive behavior, file structure and verification. Do not redesign it.",
+      "expected_output": "The agent selects Prompt mode, isolates the exact panel, inventories the reference, creates an evidence-labeled design and implementation contract, and returns a self-contained master build prompt with repository audit rules, stack decisions, section/component specifications, responsive transformations, visual verification commands, acceptance criteria, substitutions and prohibited changes.",
+      "files": ["evals/files/fashion-hero.png"]
+    },
+    {
+      "id": 2,
+      "mode": "build",
+      "prompt": "Rebuild the attached 1440x1024 SaaS dashboard in the existing React project at /dashboard. Make it exact, including the sidebar, charts, cards, type, colors, spacing and icons. Do not redesign it.",
+      "expected_output": "The agent selects Build mode, audits the repository, creates a contract and component plan, implements the route without replacing the stack, captures the page at the reference viewport, performs visual comparison, corrects major mismatches, and reports assumptions and metrics.",
+      "files": ["evals/files/dashboard-reference.png"]
+    },
+    {
+      "id": 3,
+      "mode": "hybrid",
+      "prompt": "Use these desktop and mobile MVP images. First produce the exact implementation prompt and design contract, then build the landing page in the current Next.js and CSS Modules project.",
+      "expected_output": "The agent selects Hybrid mode, treats both viewports as authoritative, produces the prompt and contract first, preserves Next.js and CSS Modules, implements responsive transformations, verifies both sizes, and documents interpolation decisions.",
+      "files": ["evals/files/landing-desktop.png", "evals/files/landing-mobile.png"]
+    },
+    {
+      "id": 4,
+      "mode": "missing-reference",
+      "prompt": "Make the website look exactly like our MVP image, including all libraries and styles.",
+      "expected_output": "When no usable image is present, the agent does not invent a design or claim exactness. It identifies the evidence gap and returns the minimum reference intake requirements or continues only with a repository audit that does not fabricate visual specifications.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "mode": "modified-replica",
+      "prompt": "Clone the attached fashion hero exactly, but add glass cards, extra gradients and a different font.",
+      "expected_output": "The agent recognizes the requested modifications, separates reference-faithful areas from deliberate changes, documents the deviation contract and does not describe the changed result as a no-difference replica.",
+      "files": ["evals/files/fashion-hero.png"]
+    },
+    {
+      "id": 6,
+      "mode": "build",
+      "prompt": "Recreate this mobile banking screen in plain HTML, CSS and JavaScript for Namecheap shared hosting. The exact brand font and illustration are not supplied.",
+      "expected_output": "The agent honors the stack and deployment constraint, preserves geometry and visible behavior, checks available assets, uses documented legal substitutions, and reports their visual impact.",
+      "files": ["evals/files/banking-mobile.png"]
+    },
+    {
+      "id": 7,
+      "mode": "repair",
+      "prompt": "The existing implementation is close to the attached reference. Fix only the visual differences and do not change API behavior or unrelated pages.",
+      "expected_output": "The agent selects Repair mode, audits the route, captures a baseline, classifies mismatches, makes scoped changes, verifies behavior and unrelated pages, and reports before/after comparison metrics.",
+      "files": ["evals/files/reference.png"]
+    },
+    {
+      "id": 8,
+      "mode": "composite-isolation",
+      "prompt": "This image contains five landing-page concepts and five dashboards. Rebuild Concept 3's dashboard only.",
+      "expected_output": "The agent isolates the requested Concept 3 dashboard, records presentation framing to ignore, and does not merge visual language or content from the other concepts.",
+      "files": ["evals/files/concept-board.png"]
+    }
+  ]
+}

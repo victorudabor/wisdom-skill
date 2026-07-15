@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Exact UI Replica">
+  <rect width="128" height="128" rx="28" fill="#111111"/>
+  <rect x="25" y="27" width="78" height="56" rx="8" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+  <path d="M41 101h46M56 83v18M72 83v18" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M39 45h20M39 59h38M82 45h7" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+</svg>

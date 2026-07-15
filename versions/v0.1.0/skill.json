@@ -1,0 +1,44 @@
+{
+  "name": "exact-ui-replica",
+  "displayName": "Exact UI Replica",
+  "version": "0.1.0",
+  "description": "Reconstruct screenshots and MVP references as measured high-fidelity working frontends.",
+  "author": "Maverp",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "capabilities": [
+    "image-inspection",
+    "repository-audit",
+    "frontend-implementation",
+    "responsive-reconstruction",
+    "browser-screenshot",
+    "visual-diff",
+    "ui-quality-assurance"
+  ],
+  "permissions": {
+    "filesystem": ["read", "write-project-files", "write-report-files"],
+    "process": ["run-project-commands", "run-local-browser", "run-verification-scripts"],
+    "network": "optional-for-package-installation-and-approved-assets",
+    "secrets": "deny-by-default"
+  },
+  "runtime": {
+    "required": [],
+    "optional": ["node>=20", "python>=3.10", "playwright", "pillow", "numpy"]
+  },
+  "tags": [
+    "screenshot-to-code",
+    "frontend",
+    "ui-replica",
+    "pixel-perfect",
+    "responsive-design",
+    "visual-regression"
+  ],
+  "supportedAgents": [
+    "agent-skills-compatible",
+    "openai-codex"
+  ],
+  "verification": {
+    "skillValidation": "skills-ref validate .",
+    "evalFile": "evals/evals.json"
+  }
+}

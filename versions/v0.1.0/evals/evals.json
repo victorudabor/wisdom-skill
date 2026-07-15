@@ -1,0 +1,44 @@
+{
+  "skill_name": "exact-ui-replica",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Rebuild the attached 1440x1024 SaaS dashboard screenshot in the existing React project at /dashboard. Make it exact, including the sidebar, charts, cards, type, colors, spacing, and icons. Do not redesign it.",
+      "expected_output": "The agent inventories the reference, audits the repository, creates a measured design specification and component plan, implements the route without replacing the stack, captures the page at 1440x1024, performs a visual comparison, corrects major mismatches, and reports assumptions and metrics.",
+      "files": ["evals/files/dashboard-reference.png"]
+    },
+    {
+      "id": 2,
+      "prompt": "Use these desktop and mobile MVP images to build the landing page. Desktop is 1600x1200 and mobile is 390x844. Preserve the existing Next.js and CSS Modules setup.",
+      "expected_output": "The agent treats both viewports as authoritative, extracts responsive transformations rather than merely shrinking desktop, reuses Next.js and CSS Modules, verifies both sizes, and documents any interpolation decisions for intermediate widths.",
+      "files": [
+        "evals/files/landing-desktop.png",
+        "evals/files/landing-mobile.png"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Make the website look exactly like our MVP image, including all libraries and styles.",
+      "expected_output": "When no usable image is present, the agent does not invent a design or claim exactness. It identifies the missing reference and provides the minimum intake requirements while preserving any useful repository audit it can perform.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Clone the attached fashion hero section exactly, but make it more modern with glass cards, extra gradients, and a different font.",
+      "expected_output": "The agent recognizes the conflict between exact replication and redesign. It prioritizes the explicit requested modifications while clearly separating them from unchanged reference-faithful areas, and it does not describe the modified result as a no-difference replica.",
+      "files": ["evals/files/fashion-hero.png"]
+    },
+    {
+      "id": 5,
+      "prompt": "Recreate this mobile banking screen in plain HTML, CSS, and JavaScript for deployment to shared hosting. The exact brand font and illustration are not supplied.",
+      "expected_output": "The agent honors the requested stack and deployment constraint, preserves visible geometry and behavior, searches supplied/project assets, selects documented legal substitutions for missing font and illustration, and reports their visual impact.",
+      "files": ["evals/files/banking-mobile.png"]
+    },
+    {
+      "id": 6,
+      "prompt": "The existing implementation is close to the attached reference. Fix only the visual differences and do not change API behavior or unrelated pages.",
+      "expected_output": "The agent audits the target implementation, captures a baseline, classifies visual mismatches, makes scoped changes, verifies that behavior and unrelated pages remain intact, and reports before/after comparison metrics.",
+      "files": ["evals/files/reference.png"]
+    }
+  ]
+}

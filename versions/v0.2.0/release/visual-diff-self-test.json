@@ -1,0 +1,277 @@
+{
+  "reference": "/mnt/data/exact-ui-replica-v0.2.0/evals/files/self-test/reference.png",
+  "actual": "/mnt/data/exact-ui-replica-v0.2.0/evals/files/self-test/actual.png",
+  "reference_size": [
+    640,
+    480
+  ],
+  "original_actual_size": [
+    640,
+    480
+  ],
+  "comparison_size": [
+    640,
+    480
+  ],
+  "resized_actual": false,
+  "threshold": 16,
+  "ignore_border": 0,
+  "mean_absolute_error": 2.011465,
+  "root_mean_square_error": 17.053929,
+  "max_channel_difference": 170,
+  "differing_pixel_share": 0.01995117,
+  "differing_pixel_percent": 1.9951,
+  "exact_pixel_share": 0.97989583,
+  "global_ssim_approximation": 0.98237787,
+  "mismatch_bounds": [
+    14,
+    75,
+    427,
+    348
+  ],
+  "top_mismatch_rows": [
+    {
+      "y": 86,
+      "share": 0.176563
+    },
+    {
+      "y": 105,
+      "share": 0.176563
+    },
+    {
+      "y": 104,
+      "share": 0.176563
+    },
+    {
+      "y": 98,
+      "share": 0.176563
+    },
+    {
+      "y": 88,
+      "share": 0.176563
+    },
+    {
+      "y": 103,
+      "share": 0.176563
+    },
+    {
+      "y": 102,
+      "share": 0.176563
+    },
+    {
+      "y": 101,
+      "share": 0.176563
+    },
+    {
+      "y": 100,
+      "share": 0.176563
+    },
+    {
+      "y": 85,
+      "share": 0.176563
+    }
+  ],
+  "top_mismatch_columns": [
+    {
+      "x": 90,
+      "share": 0.079167
+    },
+    {
+      "x": 89,
+      "share": 0.079167
+    },
+    {
+      "x": 88,
+      "share": 0.079167
+    },
+    {
+      "x": 86,
+      "share": 0.079167
+    },
+    {
+      "x": 87,
+      "share": 0.079167
+    },
+    {
+      "x": 93,
+      "share": 0.079167
+    },
+    {
+      "x": 92,
+      "share": 0.079167
+    },
+    {
+      "x": 91,
+      "share": 0.079167
+    },
+    {
+      "x": 95,
+      "share": 0.079167
+    },
+    {
+      "x": 94,
+      "share": 0.079167
+    }
+  ],
+  "regional_grid": 4,
+  "highest_mismatch_regions": [
+    {
+      "row": 0,
+      "column": 0,
+      "bounds": [
+        0,
+        0,
+        160,
+        120
+      ],
+      "mean_absolute_error": 21.619653,
+      "differing_pixel_percent": 21.599
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "bounds": [
+        160,
+        240,
+        320,
+        360
+      ],
+      "mean_absolute_error": 5.457778,
+      "differing_pixel_percent": 5.3333
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "bounds": [
+        320,
+        240,
+        480,
+        360
+      ],
+      "mean_absolute_error": 3.101979,
+      "differing_pixel_percent": 3.0312
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "bounds": [
+        320,
+        120,
+        480,
+        240
+      ],
+      "mean_absolute_error": 2.004028,
+      "differing_pixel_percent": 1.9583
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "bounds": [
+        160,
+        0,
+        320,
+        120
+      ],
+      "mean_absolute_error": 0.0,
+      "differing_pixel_percent": 0.0
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "bounds": [
+        320,
+        0,
+        480,
+        120
+      ],
+      "mean_absolute_error": 0.0,
+      "differing_pixel_percent": 0.0
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "bounds": [
+        480,
+        0,
+        640,
+        120
+      ],
+      "mean_absolute_error": 0.0,
+      "differing_pixel_percent": 0.0
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "bounds": [
+        0,
+        120,
+        160,
+        240
+      ],
+      "mean_absolute_error": 0.0,
+      "differing_pixel_percent": 0.0
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "bounds": [
+        160,
+        120,
+        320,
+        240
+      ],
+      "mean_absolute_error": 0.0,
+      "differing_pixel_percent": 0.0
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "bounds": [
+        480,
+        120,
+        640,
+        240
+      ],
+      "mean_absolute_error": 0.0,
+      "differing_pixel_percent": 0.0
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "bounds": [
+        0,
+        240,
+        160,
+        360
+      ],
+      "mean_absolute_error": 0.0,
+      "differing_pixel_percent": 0.0
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "bounds": [
+        480,
+        240,
+        640,
+        360
+      ],
+      "mean_absolute_error": 0.0,
+      "differing_pixel_percent": 0.0
+    }
+  ],
+  "artifacts": [
+    "metrics.json",
+    "overlay.png",
+    "heatmap.png",
+    "absolute-diff.png",
+    "enhanced-diff.png",
+    "diff-mask.png",
+    "annotated-mismatch.png"
+  ],
+  "notes": [
+    "Metrics are affected by font rendering, browser engine, anti-aliasing, compression, and device scale.",
+    "Use mismatch bounds and regional diagnostics to locate high-impact differences before changing code.",
+    "Global SSIM is an approximation, not a standards-compliant local-window SSIM implementation."
+  ]
+}
